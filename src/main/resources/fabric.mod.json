@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "virgins",
+  "version": "${version}",
+  "name": "Virgins",
+  "description": "Virgins client with Argon GUI",
+  "authors": [],
+  "license": "MIT",
+  "icon": "assets/immediatelyfast/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "dev.lvstrng.argon.Main"
+    ]
+  },
+  "mixins": [
+    "client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "~1.21"
+  }
+}

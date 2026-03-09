@@ -1,0 +1,2 @@
+# Treat the Gradle wrapper jar as binary so it isn't mangled by Git LF normalization
+gradle/wrapper/gradle-wrapper.jar binary

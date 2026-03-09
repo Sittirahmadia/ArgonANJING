@@ -1,0 +1,21 @@
+# Build output
+build/
+out/
+
+# Gradle caches (local only)
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Fabric run dirs
+run/
